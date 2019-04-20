@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Noutati in Tehnologie</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="jquery-scrollto.js"></script>
+    </head>
+
+    <body>
+        <style>
+            html, body {
+                justify-content: center;
+                scroll-behavior: smooth;
+            }
+
+            .navbar {
+                transition: 0.5s;
+            }
+
+            .navbar.scrolled {
+                transition: 0.5s;
+                background-color: #303030 !important;
+                height: 7.5vw;
+                padding: 3vw;
+            }
+
+            .navbar.scrolled .navbar-brand {
+                transition: 0.5s;
+                color: white;
+                font-family: 'Pacifico', cursive;
+                font-size: 3.5vw;
+            }
+
+            .navbar .navbar-brand {
+                font-family: 'Pacifico', cursive;
+                font-size: 3vw;
+            }
+
+            .navbar.scrolled .navbar-collapse .navbar-nav .nav-item a {
+                transition: 0.5s;
+                color: whitesmoke;
+            }
+
+            .btn-sec .col .card {
+              transition: 0.5s;
+              cursor: pointer;
+            }
+
+            .btn-sec .col .card:hover {
+              transition: 0.5s;
+              background-color: #181818;
+              color: white;
+            }
+        </style>
+
+        <nav class="navbar navbar-light bg-faded navbar-expand sticky-top bg-light">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">Diaco</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link link0" href="#acasa" style="font-size: calc(1.1vw + 10px)">Acasă</a>
+                    </li>
+                    <li class="nav-item" >
+                        <a class="nav-link link1" href="#noutati" style="font-size: calc(1.1vw + 10px)">Noutăţi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link2" href="#citate" style="font-size: calc(1.1vw + 10px)">Citate</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section style="padding: 20vw; background-image: url(https://images.pexels.com/photos/1098460/pexels-photo-1098460.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260); background-size: cover" class="sec0" id="acasa">
+            <div class="container text-light">
+                <center class="display-3" data-aos="fade-down" data-aos-duration="1700">Noutăți în IT</center>
+                <center><p data-aos="fade-up" data-aos-duration="1900" style="font-size: 20px">Scopul nostru pe acest website este de a te informa în legătură cu noutățile în IT.</p></center>
+            </div>
+        </section>
+        <section style="padding: 5vw" class="btn-sec sec1" id="noutati">
+            <div class="row">
+                <div class="col col-6">
+                    <div class="card h-100" data-aos="flip-down" data-aos-duration="1200" style="padding: 2vw">
+                        <h3 class="card-title" style="font-size: calc(2vw + 15px)"><center>Viteza 5G</center></h3>
+                        <p class="card-text" style="text-align: justify"><center style="font-size: calc(1vw + 10px)">Este un pas înainte de la standardul 4G care a fost introdus în anul 2008, viteza 5G fiind înglobată în anul 2018(recent). Ceea ce este într-adevăr interesant, este faptul că din zece în zece ani, o nouă generație de viteze își face simțită prezența.</center></p>
+                        <center><a class="btn btn-outline-primary card-link btn0" style="margin: 10px" href="#info0">Află mai mult</a></center>
+                    </div>
+                </div>
+                <div class="col col-6">
+                    <div class="card h-100" data-aos="flip-down" data-aos-duration="1300" style="padding: 2vw">
+                        <h3 class="card-title" style="font-size: calc(2vw + 15px)"><center>NOKIA 9 PureView</center></h3>
+                        <p class="card-text"><center style="font-size: calc(1vw + 10px)">În timp ce Samsung, Apple, Huawei sau alte companii renumite care produc telefoane se luptă pentru dezvoltarea și lansarea unui smartphone cu cea mai performantă cameră, alte companii vin din urmă cu soluţii din ce în ce mai bune.</center></p>
+                        <center><a class="btn btn-outline-primary card-link btn1" style="margin: 10px" href="#info1">Află mai mult</a></center>
+                    </div>
+                </div>
+                <div class="col col-6">
+                    <div class="card h-100" data-aos="flip-down" data-aos-duration="1200" style="padding: 2vw">
+                        <h3 class="card-title" style="font-size: calc(2vw + 15px)"><center>Citroen AMI ONE</center></h3>
+                        <p class="card-text"><center style="font-size: calc(1vw + 10px)">Un concept de automobil care poate fi condus fără permis, ar putea fi mașina electrică ideală pentru străzile din România dacă n-ar circula deja atât de multe autoturisme. Acest automobil prezintă o siluetă cubică și dimensiuni ultra-compacte (2.50 m lungime, 1.50 m lățime și 1.50 m înălțime), ce accentuează impresia de putere a acesteia.</center></p>
+                        <center><a class="btn2 btn btn-outline-primary card-link" style="margin: 10px" href="#info2">Află mai mult</a></center>
+                    </div>
+                </div>
+                <div class="col col-6">
+                    <div class="card h-100" data-aos="flip-down" data-aos-duration="1200" style="padding: 2vw">
+                        <h3 class="card-title" style="font-size: calc(2vw + 15px)"><center>Samsung Galaxy Fold</center></h3>
+                        <p class="card-text"><center style="font-size: calc(1vw + 10px)">Un dispozitiv diferit de cele de dinainte, Galaxy Fold este telefonul pliabil ce are doua ecrane AMOLED de 7.3 inch. Este facut dintr-un material special pentru a oferi flexibilitate telefonului.</center></p>
+                        <center><a class="btn3 btn btn-outline-primary card-link" style="margin: 10px" href="#info3">Află mai mult</a></center>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100" data-aos="flip-down" data-aos-duration="1200" style="padding: 2vw">
+                        <h3 class="card-title" style="font-size: calc(2vw + 15px)"><center>HUAWEI brandul nr.1 MONDIAL</center></h3>
+                        <p class="card-text"><center style="font-size: calc(1vw + 10px)">Conform declaraţiilor lui Richard Yu, Huawei are şansa de a depăşi numărul de smartphone-uri produse de Samsung în anul 2019, chiar şi fără o prezenţă serioasă pe piaţa din Statele Unite, una dintre cele mai mari pieţe pentru smartphone-uri din întreaga lume.</center></p>
+                        <center><a class="btn4 btn btn-outline-primary card-link" style="margin: 10px" href="#info4">Află mai mult</a></center>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="card0app" style="padding: 2vw" id="info0">
+            <hr />
+            <h1>Viteza 5G</h1>
+            <center><img src="https://www.cancan.ro/wp-content/uploads/2019/04/1-2.jpg" class="rounded" style="margin:10px; height: 100%; width: calc(100% - 10px)"></center>
+            <p style="font-size: 2vw">Viteza 5G în benzile sub 6 GHz poate fi puțin mai mare decât 4G cu o cantitate similară de spectru și antene. Adăugarea Accesului Asistat de Licență (AAL) la o configurație 4G, poate adăuga la viteză sute de megabiți pe secundă, o viteză la care toți visăm de mult timp.</p>
+            <p style="font-size: 2vw">Qualcomm, cel mai mare producător de cipuri, a prezentat la Mobile World Congress, un model care a fost citat de mulți. Simularea îi surprinde cu viteze medii de 490 megabiți pe secundă pentru o configurație obișnuită de 3,5 GHz.</p>
+            <hr />
+        </section>
+        <section class="card1app" style="padding: 2vw" id="info1">
+            <hr />
+            <h1>NOKIA 9 PureView</h1>
+            <center><img src="https://cdn.wccftech.com/wp-content/uploads/2019/01/Nokia-9-PureView.jpg" class="rounded" style="margin:10px; height: 100%; width: calc(100% - 10px)"></center>
+            <p style="font-size: 2vw">Dotat cu Android 9 Pie, Nokia 9 PureView este eficient și puternic. Folosind AI (inteligență artificială) pentru a-ți înțelege preferințele, Android 9 Pie îți oferă o experiență personalizată care se perfecționează în timp.</p>
+            <p style="font-size: 2vw">Conform WinFuture.de, un reprezentant din Germania al companiei finlandeze a confirmat faptul că Nokia 9 este un produs care există, iar motivul pentru care acesta încă nu a ajuns pe piaţă este tocmai performanţa foto, un aspect pe care HMD se concentrează foarte mult în acest moment. Modelele de top de până acum, Nokia 8, 8 Sirocco şi 7 Plus au oferit camere decente şi funcţii foto interesante, însă niciunul nu a reuşit să aducă telefoanele acestui brand în topurile celor mai performante la acest capitol.</p>
+            <hr />
+        </section>
+        <section class="card2app" style="padding: 2vw" id="info2">
+            <hr />
+            <h1>Citroen AMI ONE</h1>
+            <center><img src="http://media.autoblog.it/8/85c/auto-elettriche-citroen-ami-one-concept-caratteristiche.jpg" class="rounded" style="margin:10px; height: 100%; width: calc(100% - 10px)"></center>
+            <p style="font-size: 2vw">Un concept de automobil urban care poate fi condus fără permis, ar putea fi mașina electrică ideală pentru strazile din Romania , dacă n-ar circula deja atât de multe autoturisme. Un automobil mai mic chiar decât Smart ForTwo ar putea deveni realitate dacă tinerii chiar și-ar dori o mașinuță cât o cutie pe roți, dar pentru care n-au nevoie de permis.</p>
+            <p style="font-size: 2vw">În limbajul nostru, Citroen AMI ONE face parte din categoria mopedelor, pentru că viteza maximă atinsă este de 45 km/h și cântărește doar 425 de kilograme, chiar dacă este un autovehicul cu patru roți.</p>
+            <hr />
+        </section>
+        <section class="card3app" style="padding: 2vw" id="info3">
+            <hr />
+            <h1>Samsung Galaxy Fold</h1>
+            <center><img src="http://gearopen.com/wp-content/uploads/2019/02/Samsung-Galaxy-Fold_6-1.jpg" class="rounded" style="margin:10px; height: 100%; width: calc(100% - 10px)"></center>
+            <p style="font-size: 2vw">Samsung echipează Galaxy Fold cu șase camere. Începe cu o setare triplă a camerei pe spate, similară modelului Galaxy S10 Plus. Există o cameră principală de 12 MPcu unghi larg, o cameră foto telephoto de 12 MP cu zoom optic 2x și o camerăultra-lată de 16 MP care este utilă pentru captarea peisajelor și fotografiilor panoramice.</p>
+            <p style="font-size: 2vw">Când este închis, camera frontală de pe Galaxy Fold este dotată cu o cameră foto de 10 MP. Și, atunci când se deschide, partea dreaptă din față a smartphone-ului are atât o cameră pentru selfie de 10 MP, cât și o cameră de adâncime RGG de 8 MP, care va fi utilă pentru a realiza portrete.</p>
+            <hr />
+        </section>
+        <section class="card4app" style="padding: 2vw" id="info4">
+            <hr />
+            <h1>HUAWEI brandul nr.1 MONDIAL</h1>
+            <center><img src="https://cdn01.vulcanpost.com/wp-uploads/2017/04/huawei-vs-samsung-feature-image.jpg" class="rounded" style="margin:10px; height: 100%; width: calc(100% - 10px)"></center>
+            <p style="font-size: 2vw">În contextul în care nu au avut acces la piaţa din Statele Unite ale Americii, 2018 a fost unul istoric pentru Huawei. Compania a anunţat că la nivel global a comercializat peste 205 milioane de smartphone-uri (+30% comparativ cu 2017) şi peste 100 milioane de dispozitive smart (tablete, smartwatch-uri, brățări inteligente, etc).</p>
+            <p style="font-size: 2vw">Cel mai nou telefon al mărcii, P9, are camera foto dezvoltată în colaborare cu Leica, iar compania chineză vrea să insiste pe segmentul telefoanelor premium pentru a-și crește vânzările.</p>
+            <p style="font-size: 2vw">Vânzările de smartphone-uri Huawei au crescut enorm. Dacă în 2010 nu depășeau 8 mlioane de smartphone-uri pe trimestru și în 2012 în cel mai bun trimestru se depășeau 13 milioane, în prezent vânzările în trei luni trec de 25 milioane.</p>
+            <hr />
+        </section>
+        <section class="sec2" style="padding: 8vw;background-image: url(https://images.pexels.com/photos/162707/coffee-beans-blue-red-162707.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260); background-size: cover; background-position: right" id="citate">
+            <div class="row" style="height: 100%" >
+                <div class="container-fluid h-100 col bg-light" style="opacity: 0.6; height: 100%">
+                    <h1 class="black display-3" style="text-align: right; font-size: 5vw"><center>"Mi-e teamă de ziua în care tehnologia va fi mai importantă decât relațiile inter-umane. În lume va exista o generație de idioți." - Albert Einstein</center></h1>
+                </div>
+            </div>
+            <div class="row" style="height: 100%" >
+                <div class="container-fluid col bg-dark" style="opacity: 0.6; height: 100%">
+                    <h1 class="text-light display-3" style="text-align: right; font-size: 5vw"><center>"Singurul mod de a realiza lucruri minunate este să iubești ceea ce faci" - Steve Jobs</center></h1>
+                </div>
+            </div>
+            <div class="row" style="height: 100%" >
+                <div class="container-fluid col bg-light" style="opacity: 0.6; height: 100%">
+                    <h1 class="black display-3" style="text-align: right; font-size: 5vw"><center>"Dând oamenilor puterea de a comunica, facem lumea mai transparentă" - Mark Zuckerberg</center></h1>
+                </div>
+            </div>
+        </section>
+        <section style="padding: 3vw" class="bg-dark">
+            <center><a class="text-light display-5">Vă doresc o zi productivă! - Diaconu Rareș</a></center>
+        </section>
+
+        <script>
+            $(window).scroll(function() {
+                $(".navbar").toggleClass("scrolled", $(this).scrollTop() > $(".navbar").height())
+            });
+
+            $(document).ready(function() {
+                $(".card0app").hide();
+                $(".card1app").hide();
+                $(".card2app").hide();
+                $(".card3app").hide();
+                $(".card4app").hide();
+                $(".btn-sec .row .col .card .btn0").click(function(){
+                    $(".card0app").slideDown(1000);
+                });
+                $(".btn-sec .row .col .card .btn1").click(function(){
+                    $(".card1app").slideDown(1000);
+                });
+                $(".btn-sec .row .col .card .btn2").click(function(){
+                    $(".card2app").slideDown(1000);
+                });
+                $(".btn-sec .row .col .card .btn3").click(function(){
+                    $(".card3app").slideDown(1000);
+                });
+                $(".btn-sec .row .col .card .btn4").click(function(){
+                    $(".card4app").slideDown(1000);
+                });
+            });
+        </script>
+
+          <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+          <script>
+            AOS.init();
+          </script>
+    </body>
+</html>
